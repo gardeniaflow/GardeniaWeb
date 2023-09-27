@@ -9,27 +9,30 @@
     <script>
         function loadChatbotScript() {
             var script = document.createElement('script');
-            script.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js'; // Using v1
+            script.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
             script.async = true;
             document.body.appendChild(script);
 
             script.onload = function () {
                 window.botpressWebChat.init({
-                    "botId": "0e30855c-6873-4f87-9de6-b3352a0622b3", // Bot ID from the first script
-                    "clientId": "0e30855c-6873-4f87-9de6-b3352a0622b3", // Client ID from the first script
-                    "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+                    "botId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
+                    "clientId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
+                    "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
                     "messagingUrl": "https://messaging.botpress.cloud",
+                    "botName": "Gardenia",
+                    "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
+                    "containerWidth": "100%25",
+                    "layoutWidth": "100%25",
                     "composerPlaceholder": "Start typing here",
                     "botConversationDescription": "Your Property Partner",
                     "hideWidget": true,
+                    "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/5ce2b2c8-4482-424a-8e12-ad6bba19692c/v62394/style.css",
                     "disableAnimations": true,
-                    "enableConversationDeletion": true,
-                    "botName": "Gardenia", // Add botName
-                    "avatarUrl": "https://i.postimg.cc/YC8DyGW1/Screenshot-2023-09-13-213012.jpg", // Add avatarUrl
-                    "containerWidth": "100%25", // Add containerWidth
-                    "layoutWidth": "100%25", // Add layoutWidth
+                    "lazySocket": false,
+                    "useSessionStorage": true,
+                    "frontendVersion": "v1",
+                    "enableConversationDeletion": true
                 });
-
                 window.botpressWebChat.onEvent(function () {
                     window.botpressWebChat.sendEvent({ type: 'show' });
                 }, ['LIFECYCLE.LOADED']);
