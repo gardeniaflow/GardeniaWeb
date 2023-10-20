@@ -7,8 +7,8 @@
     <style>
         /* Set the maximum width and height for the chatbot container */
         .chatbot-container {
-            max-width: 800px; /* Adjust the maximum width as needed */
-            max-height: 600px; /* Adjust the maximum height as needed */
+            max-width: 400px; /* Adjust the maximum width as needed */
+            max-height: 200px; /* Adjust the maximum height as needed */
             margin: 0 auto; /* Center the container horizontally */
             overflow: auto; /* Add scrollbar when content overflows */
         }
