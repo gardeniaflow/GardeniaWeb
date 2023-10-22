@@ -12,7 +12,7 @@
                 window.botpressWebChat.init({
                     "botId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
                     "clientId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
-                    "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
+                    "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
                     "messagingUrl": "https://messaging.botpress.cloud",
                     "botName": "Gardenia",
                     "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
