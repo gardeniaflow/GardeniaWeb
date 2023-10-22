@@ -1,39 +1,18 @@
-<html lang="en">
-<body>
-    <!-- JavaScript to load the chatbot asynchronously -->
-    <script>
-        function loadChatbotScript() {
-            var script = document.createElement('script');
-            script.src = 'https://cdn.botpress.cloud/webchat/v1/inject.js';
-            script.async = true;
-            document.body.appendChild(script);
-
-            script.onload = function () {
-                window.botpressWebChat.init({
-                    "botId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
-                    "clientId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
-                    "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
-                    "messagingUrl": "https://messaging.botpress.cloud",
-                    "botName": "Gardenia",
-                    "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
-                    "composerPlaceholder": "Start typing here",
-                    "botConversationDescription": "Your Property Partner",
-                    "hideWidget": true,
-                    "stylesheet": "https://webchat-styler-css.botpress.app/prod/a0e8a6c2-cb47-455b-baa3-fb1120e04262/v36140/style.css",
-                    "disableAnimations": true,
-                    "lazySocket": false,
-                    "useSessionStorage": true,
-                    "frontendVersion": "v1",
-                    "enableConversationDeletion": true
-                });
-                window.botpressWebChat.onEvent(function () {
-                    window.botpressWebChat.sendEvent({ type: 'show' });
-                }, ['LIFECYCLE.LOADED']);
-            };
-        }
-
-        // Call the function to load the chatbot script
-        loadChatbotScript();
-    </script>
-</body>
-</html>
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script>
+  window.botpressWebChat.init({
+      "composerPlaceholder": "Chat with bot",
+      "botConversationDescription": "Your Property Partner",
+      "botId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
+      "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+      "messagingUrl": "https://messaging.botpress.cloud",
+      "clientId": "204762d6-ce34-4c89-aec6-f4d659578fc5",
+      "lazySocket": true,
+      "frontendVersion": "v1",
+      "enableConversationDeletion": true
+      "useSessionStorage": true,
+      "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
+      "botName": "Gardenia",
+      "composerPlaceholder": "Start typing here"
+  });
+</script>
