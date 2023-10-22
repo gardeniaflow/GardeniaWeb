@@ -1,9 +1,4 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gardenia</title>
-</head>
 <body>
     <!-- JavaScript to load the chatbot asynchronously -->
     <script>
@@ -21,8 +16,6 @@
                     "messagingUrl": "https://messaging.botpress.cloud",
                     "botName": "Gardenia",
                     "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
-                    "containerWidth": "100%25",
-                    "layoutWidth": "100%25",
                     "composerPlaceholder": "Start typing here",
                     "botConversationDescription": "Your Property Partner",
                     "hideWidget": true,
