@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Web Chat</title>
-    <!-- Include the Botpress Web Chat script -->
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
 </head>
 <body>
-    <!-- Add a container where you want the chat to appear -->
     <div id="botpress-webchat-container"></div>
 
     <!-- Initialize the Botpress Web Chat -->
