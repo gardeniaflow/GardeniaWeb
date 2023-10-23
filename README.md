@@ -4,7 +4,8 @@
     <title>Your Web Chat</title>
     <!-- Include the Botpress Web Chat script -->
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-
+</head>
+<body>
     <!-- Add custom CSS for your chat container -->
     <style>
         #botpress-webchat-container {
@@ -23,8 +24,7 @@
             color: #ffffff;
         }
     </style>
-</head>
-<body>
+
     <!-- Add a container where you want the chat to appear -->
     <div id="botpress-webchat-container"></div>
 
