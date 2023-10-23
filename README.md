@@ -6,25 +6,6 @@
     <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
 </head>
 <body>
-    <!-- Add custom CSS for your chat container -->
-    <style>
-        #botpress-webchat-container {
-            margin: 10px;
-            background: #66ba69;
-            border-radius: 10px;
-            position: relative;
-            overflow: hidden;
-            border: 1px solid #66ba69;
-            color: #ffffff;
-        }
-
-        /* Styling for the chat bubble content when it's from the user */
-        .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-            background-color: #66ba69;
-            color: #ffffff;
-        }
-    </style>
-
     <!-- Add a container where you want the chat to appear -->
     <div id="botpress-webchat-container"></div>
 
@@ -42,6 +23,7 @@
             "enableConversationDeletion": true,
             "useSessionStorage": true,
             "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
+            "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/193eecba-c426-41aa-bfcf-b81cb9f9131b/v4414/style.css",
             "botName": "Gardenia"
         });
     </script>
