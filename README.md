@@ -22,7 +22,7 @@
             "enableConversationDeletion": true,
             "useSessionStorage": true,
             "avatarUrl": "https://i.postimg.cc/NMYxmYRP/image502-1695792437594.jpg",
-            "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/193eecba-c426-41aa-bfcf-b81cb9f9131b/v19541/style.css",
+            "stylesheet": "https://webchat-styler-css.botpress.app/prod/code/193eecba-c426-41aa-bfcf-b81cb9f9131b/v90178/style.css",
             "botName": "Gardenia"
         });
     </script>
